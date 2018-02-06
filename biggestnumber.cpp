@@ -6,14 +6,15 @@ using namespace std; //so we don't need the prefix std::
 int main()
 {
   int number1;
-  cout<<"Please enter a whole number:\n";
-  std::cin >> number1;
-
   int number2;
-  cout<<"Please enter another whole number:\n";
-  std::cin >> number2;
-  
   int biggest;
+
+  cout<<"Please enter a whole number:\n";
+  std::cin>> number1;
+
+  cout<<"Please enter another whole number:\n";
+  std::cin>> number2;
+  
 
   if ( number1 > number2 )
   { 
@@ -25,7 +26,7 @@ int main()
   }
 
  std::cout<<"Of those two numbers, the biggest is: \n";
- std::cout<< biggest;
+ std::cout<< biggest <<std::endl;
  std::cout<<endl<<"Thank you for playing.\n";
 
   return 0;
