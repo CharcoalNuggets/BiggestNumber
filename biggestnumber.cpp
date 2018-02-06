@@ -25,8 +25,7 @@ int main()
   biggest = number2;
   }
 
- std::cout<<"Of those two numbers, the biggest is: \n";
- std::cout<< biggest <<std::endl;
+ std::cout<<"Of those two numbers, the biggest is: " << biggest << "\n"; 
  std::cout<<endl<<"Thank you for playing.\n";
 
   return 0;
